@@ -1,5 +1,5 @@
 public class LinearNode<T> {
-  private LinearNode next;
+  private LinearNode<T> next;
   private T element;
 
   //Default constructor
@@ -14,11 +14,11 @@ public class LinearNode<T> {
     element = elem;
   }
 
-  public LinearNode getNext() {
+  public LinearNode<T> getNext() {
     return next;
   }
 
-  public void setNext(LinearNode node) {
+  public void setNext(LinearNode<T> node) {
     //TASK: sets next to reference the next node in the list
     next = node;
   }

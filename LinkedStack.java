@@ -1,5 +1,5 @@
 public class LinkedStack<T> implements StackADT<T> {
-  private LinearNode top;  //A reference to the top of the stack
+  private LinearNode<T> top;  //A reference to the top of the stack
   private int count;       //The number of items on the stack
 
   //Constructor
@@ -34,7 +34,7 @@ public class LinkedStack<T> implements StackADT<T> {
 
   public String toString() {
     //Returns the list contents as a String
-    LinearNode trav = top;
+    LinearNode<T> trav = top;
     String cat = "";
     while (trav != null)
     {
