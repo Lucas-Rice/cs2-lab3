@@ -50,9 +50,9 @@ LinkedStack<Character> ls = new LinkedStack<Character>();
 // Push several items onto the stack and print the
 // contents with an implicit call to toString method
 
-ls.push (new Character ('a'));
-ls.push (new Character ('b'));
-ls.push (new Character ('c'));
+ls.push(new Character('a'));
+ls.push(new Character('b'));
+ls.push(new Character('c'));
 System.out.println(ls);
 
 // Popping the stack has the potential of throwing an
@@ -64,7 +64,7 @@ try {
   ls.pop();
   ls.pop();
 } catch (EmptyStackException e) {
-  System.out.println ("Stack is empty");
+  System.out.println("Stack is empty");
 }
 ```
 
