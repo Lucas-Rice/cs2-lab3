@@ -68,28 +68,11 @@ try {
 }
 ```
 
-## Step 5:	Alternatives to Exceptions
-The situation of popping from an empty stack can be handled without using a try
-catch block.
-
-* First, simply remove the `try-catch` block from around the calls to the
-  pop method and rerun your program.  Read about exception propagation and
-  answer question 10 on your answer sheet.
-* Now, rewrite your main method using an `if` statement and the `isEmpty()` method
-  to accomplish the same goal (guarding against popping or peeking an empty
-  stack) as the `try-catch` block.
-
-Exceptions are the final safeguard against improper use of a data structure.
-In general, however, it is better software engineering practice to use an `if`
-statement unless an exception handler is absolutely necessary. Step 5 is an
-example of a way to write safe code without using exceptions to catch erroneous
-or improper access.
-
-## Step 6: Drawing Pictures
+## Step 5: Drawing Pictures
 In class you have seen how to trace the `push` method using snapshots of the
 stack. Answer question 11 on your answer sheet.
 
-## Step 7: peek()
+## Step 6: peek()
 Using the knowledge you gained by studying the push and pop methods, write and
 test a `peek` method.
 * Handwrite the code for your peek method on the back of your answer sheet
@@ -97,14 +80,14 @@ test a `peek` method.
 * Call your instructor over and explain how your method works. Draw pictures to
   explain your method.
 
-## Step 8: Efficiency
+## Step 7: Efficiency
 On the back of your lab answer sheet, list all of the current methods in the
 `LinkedStack` class and their efficiency categories.
 
-## Step 9: contains()
+## Step 8: contains()
 Implement and test the `contains` method.
 
-## Step 10: Finish Up
+## Step 9: Finish Up
 When you have successfully answered all the lab questions, and written and
 tested the `pop` and `peek` methods of the `LinkedStack` class, you are finished.
 
