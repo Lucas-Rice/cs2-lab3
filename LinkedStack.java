@@ -36,8 +36,7 @@ public class LinkedStack<T> implements StackADT<T> {
     //Returns the list contents as a String
     LinearNode<T> trav = top;
     String cat = "";
-    while (trav != null)
-    {
+    while (trav != null){
       cat = cat + trav.getElement().toString();
       trav = trav.getNext();
     }

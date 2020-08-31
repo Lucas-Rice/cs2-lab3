@@ -5,6 +5,7 @@ public class StackTester {
     ls.push(new Character('a'));
     ls.push(new Character('b'));
     ls.push(new Character('c'));
-    System.out.println(ls);
+    System.out.println("expect:\tcba");
+    System.out.println("got:\t"+ls);
   }
 }

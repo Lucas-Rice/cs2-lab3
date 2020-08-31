@@ -2,19 +2,21 @@
 ## Purpose
 The purpose of this lab is to complete the implementation of a Linked Stack ADT
 as described in the lab instructions below.  The Stack ADT was chosen because
-the student is already familiar with stack operations.   Additionally, the
+the student is already familiar with stack operations. Additionally, the
 successful student will gain significant insight into the use of generics.
+
 ## Evaluation
 Students will be awarded up to 10 points for successfully completing this lab
 as outlined below.
+
 ## Step 1: Design
 As you begin your lab, study the UML Diagram below and answer the questions on
 your answer sheet.  This design will guide the roadmap through the lab this week.
 ![UML diagram](images/UML.png)
 
 ## Step 2: Obtain Starter Code
-Create a clone of this repository in your cloud9 workspace. You will see 5 Java
-source files in the repository directory.
+Create a clone of this repository in your coding environment. You will see
+5 Java source files in the repository directory.
 * StackADT.java
 * LinearNode.java
 * LinkedStack.java
@@ -25,6 +27,7 @@ Compile these Java source files with the following command:
 ```
 javac *.java
 ```
+
 ## Step 3: Run the StackTester Class
 The main method is found in the StackTester class. Run the file using the
 following command:
@@ -35,8 +38,8 @@ You should see in the console "cba", which is being returned from a call to the
 toString() method, not by `peek` or `pop`.
 
 ## Step 4: Implementing the pop()
-Using your text as a reference, implement and test the pop method.  You will
-find the code for the pop method on page 89 of your text.
+Using your text as a reference, implement and test the `pop` method.  You will
+find the code for the `pop` method on page 89 of your text.
 NOTE: We are using an `EmptyStackException`rather than the
 `EmptyCollectionException`as shown in your text.
 
@@ -73,8 +76,8 @@ In class you have seen how to trace the `push` method using snapshots of the
 stack. Answer question 11 on your answer sheet.
 
 ## Step 6: peek()
-Using the knowledge you gained by studying the push and pop methods, write and
-test a `peek` method.
+Using the knowledge you gained by studying the `push` and `pop` methods,
+write and test a `peek` method.
 * Handwrite the code for your peek method on the back of your answer sheet
   BEFORE you type it into your file.
 * Call your instructor over and explain how your method works. Draw pictures to
