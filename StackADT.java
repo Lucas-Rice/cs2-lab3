@@ -14,3 +14,4 @@ public interface StackADT<T> {
   public String toString();
   //Returns the list contents as a String
 }
+

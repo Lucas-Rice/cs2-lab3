@@ -43,3 +43,4 @@ public class LinkedStack<T> implements StackADT<T> {
     return cat;
   }
 }
+

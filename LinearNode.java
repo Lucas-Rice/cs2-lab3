@@ -33,3 +33,4 @@ public class LinearNode<T> {
     element = elem;
   }
 }
+
