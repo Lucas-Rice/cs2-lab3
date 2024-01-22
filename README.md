@@ -10,12 +10,12 @@ Students will be awarded up to 10 points for successfully completing this lab
 as outlined below.
 
 ## Step 1: Design
-As you begin your lab, study the UML Diagram below and answer the questions on
-your answer sheet.  This design will guide the roadmap through the lab this week.
+As you begin your lab, study the UML Diagram, which will guide the roadmap
+through the lab this week.
 ![UML diagram](images/UML.png)
 
 ## Step 2: Obtain Starter Code
-Create a clone of this repository in your coding environment. You will see
+Clone this repository in your coding environment. You will see
 5 Java source files in the repository directory.
 * StackADT.java
 * LinearNode.java
@@ -23,23 +23,22 @@ Create a clone of this repository in your coding environment. You will see
 * StackTester.java
 * EmptyStackException.java
 
-Compile these Java source files with the following command:
+You can compile these Java source files with the following command:
 ```
 javac *.java
 ```
 
 ## Step 3: Run the StackTester Class
-The main method is found in the StackTester class. Run the file using the
+The main method is found in the `StackTester.java`. Run the file using the
 following command:
 ```
 java StackTester
 ```
 You should see in the console "cba", which is being returned from a call to the
-toString() method, not by `peek` or `pop`.
+`toString()` method, not by `peek` or `pop`.
 
 ## Step 4: Implementing the pop()
-Using your text as a reference, implement and test the `pop` method.  You will
-find the code for the `pop` method on page 89 of your text.
+Using your text as a reference, implement and test the `pop` method.
 NOTE: We are using an `EmptyStackException`rather than the
 `EmptyCollectionException`as shown in your text.
 
@@ -71,27 +70,23 @@ try {
 }
 ```
 
-## Step 5: Drawing Pictures
-In class you have seen how to trace the `push` method using snapshots of the
-stack. Answer question 11 on your answer sheet.
-
-## Step 6: peek()
+## Step 5: peek()
 Using the knowledge you gained by studying the `push` and `pop` methods,
 write and test a `peek` method.
-* Handwrite the code for your peek method on the back of your answer sheet
+* Handwrite the code for your peek method on a piece of paper
   BEFORE you type it into your file.
 * Call your instructor over and explain how your method works. Draw pictures to
   explain your method.
 
-## Step 7: Efficiency
-On the back of your lab answer sheet, list all of the current methods in the
-`LinkedStack` class and their efficiency categories.
-
-## Step 8: contains()
+## Step 6: contains()
 Implement and test the `contains` method.
 
-## Step 9: Finish Up
-When you have successfully answered all the lab questions, and written and
-tested the `pop` and `peek` methods of the `LinkedStack` class, you are finished.
+## Step 7: Efficiency
+Examine all of the current methods in the `LinkedStack` class and identify their efficiency categories.
 
-Push your code to github and turn in your answer sheet.
+## Step 8: Finish Up
+When you have successfully answered all the lab questions, and written and
+tested the `pop`, `peek`, and `contains` methods of the `LinkedStack` class, you are finished.
+
+Add a "result.txt" with your answers to the questions, commit your changes, and push your changes to
+github.
