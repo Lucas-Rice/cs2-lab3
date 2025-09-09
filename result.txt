@@ -1,0 +1,6 @@
+LinkedStack = O1
+Pop() = O1
+Peek() = O1
+Push() = O1
+isEmpty() = O1
+Contains() = On

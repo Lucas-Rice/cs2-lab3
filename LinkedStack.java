@@ -10,13 +10,15 @@ public class LinkedStack<T> implements StackADT<T> {
 
   public T pop() throws EmptyStackException {
     //Removes and returns the top item on the stack
-    return null;
+    T user = top.getElement();
+    count--;
+    return user;
   }
 
   public T peek() throws EmptyStackException {
     //Returns the first item in the list
     //currently not implemented
-    return null;
+    return top.getElement();
   }
 
   public void push (T element) {
@@ -31,7 +33,24 @@ public class LinkedStack<T> implements StackADT<T> {
     //TASK: return true if 0 items on the stack; false otherwise
     return count == 0;
   }
-
+  
+  public boolean contains(T element) {
+    boolean result = false;
+    if (top==null){
+      return false;
+    }
+    else {
+      LinearNode<T> trav = top;
+      while (top!=null){
+        if (trav.getElement().equals(element)){
+          result = true;
+          break;
+        }
+      trav = trav.getNext();
+      }
+    }
+    return result;
+  }
   public String toString() {
     //Returns the list contents as a String
     LinearNode<T> trav = top;
