@@ -45,7 +45,7 @@ public class LinkedStack<T> implements StackADT<T> {
         if (trav.getElement().equals(element)){
           result = true;
           break;
-        }
+      }
       trav = trav.getNext();
       }
     }

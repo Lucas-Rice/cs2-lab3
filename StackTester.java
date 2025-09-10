@@ -11,6 +11,8 @@ public class StackTester {
     ls.push(new Character('c'));
     System.out.println(ls);
 
+    System.out.println(ls.contains('b'));
+
     // Popping the stack has the potential of throwing an
     // exception, so place inside a try catch block
 
